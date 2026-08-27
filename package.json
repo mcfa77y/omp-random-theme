@@ -1,0 +1,34 @@
+{
+  "name": "omp-random-theme",
+  "version": "1.0.0",
+  "description": "Oh My Pi extension that randomizes your TUI theme on startup and provides slash commands to roll new themes",
+  "main": "src/index.ts",
+  "type": "module",
+  "omp": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "extension",
+    "plugin",
+    "theme",
+    "themes",
+    "random-theme",
+    "tui",
+    "catppuccin",
+    "tokyo-night"
+  ],
+  "author": "mcfa77y",
+  "license": "MIT",
+  "devDependencies": {
+    "@oh-my-pi/pi-coding-agent": "^18.0.0",
+    "typescript": "^5.8.0"
+  }
+}
