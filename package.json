@@ -29,6 +29,6 @@
   "license": "MIT",
   "devDependencies": {
     "@oh-my-pi/pi-coding-agent": "^18.0.0",
-    "typescript": "^5.8.0"
+    "typescript": "^7.0.2"
   }
 }
